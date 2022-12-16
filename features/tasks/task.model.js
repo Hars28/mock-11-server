@@ -10,7 +10,7 @@ const taskSchema = new mongoose.Schema({
    quantity:{type:Number},
    priority:{type:String},
    desc:{type:String},
-   timestamp:{type:Date}
+   timestamp:{type:Number}
 
 })
 
